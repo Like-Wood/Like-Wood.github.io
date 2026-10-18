@@ -1,5 +1,5 @@
 appearance:
-  preset: glass
+  preset: card
   color_scheme: auto
   colors:
     primary: '#2f6f68'
@@ -22,8 +22,8 @@ appearance:
     leftbar:
       type: gradient
     page:
-      type: gradient
-      # image: https://img.haowallpaper.com/pre_cache_file/2025_11_17_file/17973241391205760.png
+      type: image
+      image: /images/background.webp
 
 features:
   card_hover:
