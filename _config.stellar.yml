@@ -23,7 +23,7 @@ appearance:
       type: gradient
     page:
       type: image
-      image: /images/background.webp
+      image: https://img.haowallpaper.com/pre_cache_file/2025_11_17_file/17973241391205760.png
 
 features:
   card_hover:
