@@ -1,5 +1,5 @@
 appearance:
-  preset: minimal
+  preset: glass
   color_scheme: auto
   colors:
     primary: '#2f6f68'
