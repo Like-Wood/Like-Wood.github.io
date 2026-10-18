@@ -29,6 +29,30 @@
       "updatedAt": "2026-10-18T14:50:39.019Z",
       "error": "Local image route not found: img/pythonCarton.jpeg",
       "retryAfter": 1792421439019
+    },
+    "http://like-wood.github.io/posts/666287456/pythonCarton.jpeg": {
+      "updatedAt": "2026-10-18T16:24:39.402Z",
+      "dimensions": {
+        "status": "ready",
+        "width": 2048,
+        "height": 2048
+      },
+      "color": {
+        "status": "ready",
+        "algorithm": "hsla-mean-v1",
+        "size": 64,
+        "hsla": [
+          96.7336,
+          52.7722,
+          80.4584,
+          1
+        ]
+      }
+    },
+    "http://like-wood.github.io/posts/undefined/pythonCarton.jpeg": {
+      "updatedAt": "2026-10-18T16:23:17.962Z",
+      "error": "Local image route not found: posts/undefined/pythonCarton.jpeg",
+      "retryAfter": 1792426997962
     }
   }
 }
