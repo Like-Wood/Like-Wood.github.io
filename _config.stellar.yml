@@ -22,6 +22,7 @@ appearance:
     leftbar:
       type: gradient
     page:
+      type: image
       image: /images/background.webp
 
 features:
