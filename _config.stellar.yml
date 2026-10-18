@@ -1,5 +1,5 @@
 appearance:
-  preset: card
+  preset: glass
   color_scheme: auto
   colors:
     primary: '#2f6f68'
@@ -49,6 +49,8 @@ topbar:
       title: 文档
       url: /wiki/
 leftbar:
+  brand:
+    - search: enable
   menu:
     - id: post
       title: 博客
