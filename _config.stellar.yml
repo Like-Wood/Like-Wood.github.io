@@ -1,0 +1,70 @@
+appearance:
+  preset: minimal
+  color_scheme: auto
+  colors:
+    primary: '#2f6f68'
+    accent: '#c96f4a'
+  typography:
+    font_family:
+      body: '"Noto Serif SC", sans-serif'
+      code: 'Menlo, Consolas, monospace'
+    font_size:
+      root: 16px
+      inline_code: 85%
+      code_block: 0.8125rem
+    content_align: left
+  shape:
+    corner: superellipse(1.25)
+    radius:
+      card: 16px
+      image: 16px
+  backgrounds:
+    leftbar:
+      type: gradient
+    page:
+      image: /images/background.webp
+
+features:
+  card_hover:
+    spotlight: true
+    tilt: true
+  reveal:
+    enabled: true
+    duration: 800
+    interval: 200
+    distance: 8
+    blur: 4
+  lazy_loading:
+    transition: fade
+    auto_aspect_ratio: true
+
+topbar:
+  enabled: true
+  menu:
+    - id: home
+      title: 首页
+      url: /
+    - id: docs
+      title: 文档
+      url: /wiki/
+leftbar:
+  menu:
+    - id: post
+      title: 博客
+      icon: default:documents
+      url: /
+    - id: notes
+      title: 笔记
+      icon: default:documents
+      url: /notebooks/
+profiles:
+  post:
+    rightbar:
+      widgets: [toc]
+
+search:
+  provider: local
+  local:
+    scope: all
+    include_content: true
+    cache_ttl_seconds: 86400
