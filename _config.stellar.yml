@@ -52,12 +52,31 @@ topbar:
 leftbar:
   brand:
     name: 学习小站
+    tagline: 学习、记录和整理知识
+    image: 
+      src: /images/icon.png
     search: true
   menu:
     - id: post
       title: 博客
       icon: default:documents
       url: /
+      accent: '#1BCDFC'
+    - id: topic
+      title: 专栏
+      icon: default:pin
+      url: /topic/
+      accent: '#F44336'
+    - id: archives
+      title: 文章归档
+      icon: default:calendar
+      url: /archives/
+      accent: '#7C4DFF'
+    - id: wiki
+      title: 知识库
+      icon: default:documents
+      url: /wiki/
+      accent: '#3DC550'
     - id: notes
       title: 笔记
       icon: default:documents

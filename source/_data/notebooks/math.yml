@@ -10,3 +10,5 @@ listing:
 visibility:
   listed: true
   searchable: true
+cover: "/images/mathBeauty.png"
+icon: "/images/mathIcon.png"
