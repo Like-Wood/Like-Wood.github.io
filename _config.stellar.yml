@@ -22,7 +22,7 @@ appearance:
     leftbar:
       type: gradient
     page:
-      image: /images/background.jpg
+      image: /images/background.webp
 
 features:
   card_hover:
