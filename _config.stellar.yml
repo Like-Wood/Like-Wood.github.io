@@ -62,9 +62,19 @@ profiles:
     rightbar:
       widgets: [toc]
 
+# _config.stellar.yml
 search:
-  provider: local
+  service: local
   local:
-    scope: all
-    include_content: true
-    cache_ttl_seconds: 86400
+    enable: true
+    path: search.json
+    field: post,page
+    content: true
+    format: html
+
+# _config.stellar.yml
+style:
+  color:
+    theme: 'hsl(192 98% 55%)'    # 主题色
+    accent: 'hsl(14 100% 57%)'   # 强调色
+    link: 'hsl(207 90% 54%)'     # 链接色
