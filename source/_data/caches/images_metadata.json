@@ -1,6 +1,30 @@
 {
   "version": 1,
   "images": {
+    "http://like-wood.github.io/%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AD%E6%96%87/pythonCarton.jpeg": {
+      "updatedAt": "2026-10-18T15:01:07.094Z",
+      "error": "Local image route not found: 第一篇中文/pythonCarton.jpeg",
+      "retryAfter": 1792422067094
+    },
+    "http://like-wood.github.io/2026/10/18/%E6%B5%8B%E8%AF%95%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/pythonCarton.jpeg": {
+      "updatedAt": "2026-10-18T15:10:37.887Z",
+      "dimensions": {
+        "status": "ready",
+        "width": 2048,
+        "height": 2048
+      },
+      "color": {
+        "status": "ready",
+        "algorithm": "hsla-mean-v1",
+        "size": 64,
+        "hsla": [
+          96.7336,
+          52.7722,
+          80.4584,
+          1
+        ]
+      }
+    },
     "http://like-wood.github.io/img/pythonCarton.jpeg": {
       "updatedAt": "2026-10-18T14:50:39.019Z",
       "error": "Local image route not found: img/pythonCarton.jpeg",
