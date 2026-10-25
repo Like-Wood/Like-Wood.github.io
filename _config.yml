@@ -64,6 +64,13 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+
+# 数学公式：在 Markdown 解析前用 KaTeX 渲染，避免被 marked 破坏
+katex:
+  stylesheet_fragment: '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">'
+  render_options:
+    throwOnError: false
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)

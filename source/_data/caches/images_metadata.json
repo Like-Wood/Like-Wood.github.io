@@ -25,6 +25,25 @@
         ]
       }
     },
+    "http://like-wood.github.io/images/background.webp": {
+      "updatedAt": "2026-10-25T16:58:49.727Z",
+      "dimensions": {
+        "status": "ready",
+        "width": 2560,
+        "height": 1600
+      },
+      "color": {
+        "status": "ready",
+        "algorithm": "hsla-mean-v1",
+        "size": 64,
+        "hsla": [
+          223.341,
+          26.1277,
+          16.6714,
+          1
+        ]
+      }
+    },
     "http://like-wood.github.io/images/mathBeauty.png": {
       "updatedAt": "2026-10-18T17:05:52.233Z",
       "dimensions": {
@@ -67,6 +86,25 @@
       "updatedAt": "2026-10-18T14:50:39.019Z",
       "error": "Local image route not found: img/pythonCarton.jpeg",
       "retryAfter": 1792421439019
+    },
+    "http://like-wood.github.io/posts/3011152185/workspace.svg": {
+      "updatedAt": "2026-10-25T16:58:49.678Z",
+      "dimensions": {
+        "status": "ready",
+        "width": 284,
+        "height": 284
+      },
+      "color": {
+        "status": "ready",
+        "algorithm": "hsla-mean-v1",
+        "size": 64,
+        "hsla": [
+          11.4084,
+          100,
+          2.7906,
+          0.0317
+        ]
+      }
     },
     "http://like-wood.github.io/posts/3769387627/screenAxis.webp": {
       "updatedAt": "2026-10-19T02:55:21.032Z",
