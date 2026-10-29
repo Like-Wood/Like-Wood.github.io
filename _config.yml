@@ -114,8 +114,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: stellar
 
-plugins:
-  - hexo-reference
+# plugins
+markdown:
+  plugins:
+    - markdown-it-footnote
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
