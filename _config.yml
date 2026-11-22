@@ -123,3 +123,7 @@ markdown:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# music
+aplayer:
+  meting: true
